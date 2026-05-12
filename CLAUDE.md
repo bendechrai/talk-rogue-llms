@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A conference talk repository for "Rogue LLMs: Securing Prompts and Ensuring Persona Fidelity" by Ben Dechrai. The talk is 45-60 minutes, aimed at engineering/dev audiences, and draws on experience building BraidFlow (a goal-oriented AI group chat platform). The framing is "I built BraidFlow, here's what bit me, here's what works."
+A conference talk repository for "Rogue LLMs: Securing Prompts and Ensuring Persona Fidelity" by Ben Dechrai. The talk is 45-60 minutes, aimed at engineering/dev audiences, and draws on experience building BraidFlow (a goal-oriented AI group chat platform). The framing draws on experience building BraidFlow and working on AI dev tools at Zencoder.
 
 The repo contains a Reveal.js slide deck (`index.html`) and three progressive demos in `demos/` illustrating LLM prompt injection and defense techniques.
 
@@ -140,4 +140,5 @@ Some commented-out `llm-rubric` assertions in the promptfoo configs can use an e
 - Web: https://bendechr.ai
 - Twitter: https://twitter.com/bendechrai
 - Email: ben@dechrai.com
-- Project referenced in talk: BraidFlow (goal-oriented AI group chat platform)
+- Employer: Zencoder (AI dev tools - IDE plugin + ZenFlow multi-agent orchestration)
+- Side project referenced in talk: BraidFlow (goal-oriented AI group chat platform)

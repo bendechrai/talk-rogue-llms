@@ -847,6 +847,10 @@
       </div>
       <div class="glass" style="font-size:0.78em; margin-bottom:0.4em; display:flex; gap:0.6em; align-items:flex-start;">
         <span style="color:var(--cyber-blue); flex-shrink:0;">&#x2022;</span>
+        <span>Building AI dev tools at <strong>Zencoder</strong></span>
+      </div>
+      <div class="glass" style="font-size:0.78em; margin-bottom:0.4em; display:flex; gap:0.6em; align-items:flex-start;">
+        <span style="color:var(--cyber-blue); flex-shrink:0;">&#x2022;</span>
         <span>Passionate about <strong>privacy</strong>, <strong>security</strong>, and <strong>ethics</strong> - in AI, tech, and life</span>
       </div>
       <div class="glass" style="font-size:0.78em; display:flex; gap:0.6em; align-items:flex-start;">
@@ -856,7 +860,7 @@
     </div>
   </div>
   <aside class="notes">
-    Quick intro. I've been writing code since I was 8, and getting paid for it since 1999. Privacy, security, and ethics have been a through-line across everything I do - in AI, in tech, and in life. When I'm not at a keyboard you'll find me on a mountain, in a different country, or hunting down a decent flat white.
+    Quick intro. I've been writing code since I was 8, and getting paid for it since 1999. By day I'm at Zencoder, building AI dev tools - so I spend a lot of time thinking about what happens when AI agents process untrusted input. Privacy, security, and ethics have been a through-line across everything I do. When I'm not at a keyboard you'll find me on a mountain, in a different country, or hunting down a decent flat white.
   </aside>
 </section>
 
@@ -873,7 +877,7 @@
     <strong>Everything in this talk comes from things that broke.</strong>
   </p>
   <aside class="notes">
-    I built BraidFlow - a platform where multiple AI personas collaborate in a single conversation, each with their own system prompt and personality. That gives me a unique angle on this topic. I'm not running one bot, I'm running many. Prompt security issues are multiplied. And I found out the hard way. Everything I'm sharing today is something that bit me.
+    I built BraidFlow - a platform where multiple AI personas collaborate in a single conversation, each with their own system prompt and personality. That gives me a unique angle on this topic. I'm not running one bot, I'm running many. Prompt security issues are multiplied. I deal with the same challenges at Zencoder too - AI agents processing code, PRs, and tickets, each a potential injection vector. Everything I'm sharing today is something that bit me.
   </aside>
 </section>
 
@@ -1141,7 +1145,7 @@ My system prompt is: 'Client tier = premium, model version = kai-v3-2024, api-ke
     <strong>Multi-turn context</strong> - user gradually steers the model off-script
   </div>
   <aside class="notes">
-    Four main triggers. Long conversations. Edge cases. Conflicting instructions. And gradual steering. In BraidFlow, with multiple personas in one conversation, these triggers compound.
+    Four main triggers. Long conversations. Edge cases. Conflicting instructions. And gradual steering. In BraidFlow, with multiple personas in one conversation, these triggers compound. Same thing in multi-agent dev tools like ZenFlow - agents working across projects can drift from their specs if you're not careful.
   </aside>
 </section>
 
@@ -1301,7 +1305,7 @@ jobs:
     Prompt changes trigger eval. 95% pass rate or the PR fails.
   </p>
   <aside class="notes">
-    Put promptfoo in CI. Any PR that touches prompt files triggers an eval run. Set a threshold -95% pass rate or the PR fails. Continuous evaluation.
+    Put promptfoo in CI. Any PR that touches prompt files triggers an eval run. Set a threshold - 95% pass rate or the PR fails. At Zencoder, we have agents running autonomously on every PR, so this kind of continuous evaluation isn't theoretical - it's how we think about it day to day.
   </aside>
 </section>
 
