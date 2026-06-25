@@ -6,7 +6,7 @@ embedded secrets, or quietly dropping out of character - and the practical
 patterns that keep it on the rails.
 
 The talk is 45-60 minutes, aimed at an engineering audience, and draws on
-building [BraidFlow](https://bendechr.ai) (a multi-persona AI group chat
+building [BraidFlow](https://braidflow.io) (a multi-persona AI group chat
 platform) and working on AI dev tools at Zencoder.
 
 ## What's in here
