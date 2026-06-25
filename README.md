@@ -70,8 +70,9 @@ The live demos slot into sections 2, 4, and 5. See
 
 The "in the wild" slide references a third-party video that is not distributed
 with this repo (it is gitignored for copyright). The slide and its speaker notes
-still stand on their own without it; the original clip is credited on the slide
-([@SteveMould](https://www.youtube.com/@SteveMould)).
+still stand on their own without it. The original clip is by
+[@SteveMould](https://www.youtube.com/@SteveMould):
+[youtube.com/shorts/GJVSDjRXVoo](https://www.youtube.com/shorts/GJVSDjRXVoo).
 
 ## Built with
 
