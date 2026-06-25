@@ -1,2 +1,5 @@
 # Copyright video - not for distribution
 *.webm
+
+# macOS
+.DS_Store
